@@ -1,10 +1,10 @@
 ## handwritten-signatures-extraction-and-verification
 
-The aim of the project is:
-- to extract the signatures from the license cards
-- to skeletonize the extracted signatures
-- to create a program that can verify a signature whether it exists in the database provided or not
-
+> The aim of the project is:
+>- to extract the signatures from the license cards
+>- to skeletonize the extracted signatures
+>- to create a program that can verify a signature whether it exists in the database provided or not
+>> The dataset used is confidential.
 
 # Getting started
 
@@ -55,9 +55,4 @@ STEP 3 - Verification
 - VerticalFeat.m : used to extract 31 vertically splitted features per image
 
 
-# Authors
-
-- Vikram Singh, Zakir Husain College of Engineering and Technology, Aligarh Muslim University, Aligarh, India
-
-- For any query, send me a mail on vikramverma1997@gmail.com
 
