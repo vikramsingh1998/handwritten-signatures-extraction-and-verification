@@ -1,4 +1,4 @@
-## handwritten-signatures-extraction-and-verification
+# handwritten-signatures-extraction-and-verification
 
 > The aim of the project is:
 >- to extract the signatures from the license cards
@@ -6,17 +6,17 @@
 >- to create a program that can verify a signature whether it exists in the database provided or not
 >> The dataset used is confidential.
 
-# Getting started
+## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 
-# Prerequisites
+## Prerequisites
 
 - MATLAB version greater than 2018a (2019a preferred)
 
 
-# Instructions to run the programs
+## Instructions to run the programs
 
 * In the programs which require main_directory as input, give full path of 'Database' directory as input.
 
@@ -44,7 +44,7 @@ STEP 3 - Verification
 - match2.m : run this function, select a test image from the database and give the maximum value of the threshold you want
 
 
-# Other used programs
+## Other used programs
 
 - filter_im.m : used to remove small noises from the extracted signatures
 
