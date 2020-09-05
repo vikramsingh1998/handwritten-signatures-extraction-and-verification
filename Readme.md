@@ -18,41 +18,41 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Instructions to run the programs
 
-* In the programs which require main_directory as input, give full path of 'Database' directory as input.
+* The scripts which require *main_directory* as input, give full path of *'Database'* directory.
 
-STEP 1 - Extract licences, signatures and skeletonized signatures (if not exists)
+**STEP 1** - Extract licences, signatures and skeletonized signatures (if doesn't exist)
 
-- ExtractLicense.m : to extract all the license images from the images provided in the database and store it in Lic_img/ directory
+- *ExtractLicense.m* : to extract all the license images from the images provided in the database and store it in *Lic_img/* directory
 
-- get_all_sig.m : to extract all the signature images from the license images and store them in the Sig_img/ directory
+- *get_all_sig.m* : to extract all the signature images from the license images and store them in the *Sig_img/* directory
 
-- resize_all.m : to make the size of all the extracted signatures equal and store the output in the Sig_resimg/ directory
+- *resize_all.m* : to make the size of all the extracted signatures equal and store the output in the *Sig_resimg/* directory
 
-- get_all_skel : to extract the skeleton of the signatures and store them in the Skel_img/ directory
+- *get_all_skel.m* : to extract the skeleton of the signatures and store them in the *Skel_img/* directory
 
-* If the licences, signatures and skeletonized signatures are already extracted then move to STEP 2
+- If the licences, signatures and skeletonized signatures are already extracted then move to **STEP 2**
 
-STEP 2 - Extract the features of the skeletonized signatures
+**STEP 2** - Extract the features of the skeletonized signatures
 
-- get_all_feat.m : to extract all the features from the skeletonized signatures
+- *get_all_feat.m* : to extract both horizontal and vertical features from the skeletonized signatures
 
 
-STEP 3 - Verification
+**STEP 3** - Verification
 
-- match.m : run this function, select a test image from the database and give the minimum and maximum value of the threshold you want
+- *match.m* : run this function, select a test image from the database and give the minimum and maximum value of the threshold you want
 
-- match2.m : run this function, select a test image from the database and give the maximum value of the threshold you want
+- *match2.m* : run this function, select a test image from the database and give the maximum value of the threshold you want
 
 
 ## Other used programs
 
-- filter_im.m : used to remove small noises from the extracted signatures
+- *filter_im.m* : used to remove small noises from the extracted signatures
 
-- wav_decom : used to remove small noises and redundant pixels from the extracted signatures
+- *wav_decom* : used to remove small noises and redundant pixels from the extracted signatures
 
-- HorizontalFeat.m : used to extract 31 horizontally splitted features per image
+- *HorizontalFeat.m* : used to extract 31 horizontally splitted features per image
 
-- VerticalFeat.m : used to extract 31 vertically splitted features per image
+- *VerticalFeat.m* : used to extract 31 vertically splitted features per image
 
 
 
